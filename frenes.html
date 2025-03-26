@@ -2,9 +2,14 @@
     <body>
         <button onclick="onFRClick()">FREN</button>
         <p id="debugTextId">...</p>
+        <button onclick="onSPClick()">SP</button>
+        <p id="debugTextId2">...</p>
         <script>
             function onFRClick(){
                 document.getElementById("debugTextId").innerHTML = "bonjour";
+            }
+            function onSPClick(){
+                document.getElementById("debugTextId2").innerHTML = "hola";
             }
         </script>
     </body>
